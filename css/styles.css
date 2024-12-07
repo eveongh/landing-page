@@ -79,7 +79,8 @@ li a {
 }
 
 button:hover {
-    background-color:darkblue;
+    transition:0.3s;
+    background-color:rgb(34, 69, 126);
 }
 
 .right {
@@ -148,6 +149,45 @@ button:hover {
 }
 
 /* call to action */
+.container-low {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    width:90%;
+    padding:15px;
+    border-radius:15px;
+}
+
+.container-cta {
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    background-color: #3882F6;
+    color:white;
+    border-radius:5px;
+    padding:20px;
+    padding-left:80px;
+    box-shadow:5px 5px 10px #0f2952;
+    letter-spacing:.5px;
+    width:40%
+}
+
+.container-low button {
+    font-weight:bold;
+    color:white;
+    background-color: #3882F6;
+    border:2px white solid;
+    border-radius:5px;
+    width:80px;
+    padding:5px;
+    
+}
+
+.container-low button:hover {
+    transition:0.3s;
+    background-color:rgb(34, 69, 126);
+}
 
 /* footer */
 .footer {
